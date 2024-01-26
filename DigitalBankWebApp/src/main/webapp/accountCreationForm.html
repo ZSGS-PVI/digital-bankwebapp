@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-image:url("Homepagebank.jpg")
+        
+     
+      }
+   h2{
+    text-align: center;
+    color:blue
+   }
+input[type=text],[type=file],[type=date],#gender{
+ width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color:black;
+}
+
+button{
+  width: 50%;
+  background-color: #4CAF50;
+  color:black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+div {
+  margin-left: 30%;
+ margin-top: 3%;
+  width: 40%;
+  border-radius: 5px;
+  background-color: #f2f2f2d4;
+
+
+  text-align: center;
+}
+</style>
+
+
+    
+</head>
+<body>
+  
+  <h2>CREATE ACCOUNT</h2>
+   <div>
+   <form>
+<label for="fname">First Name</label><br>
+<input type="text" placeholder="fname" name="fname" required><br>
+
+<label for="lname">Last Name</label><br>
+<input type="text" placeholder="lname" name="lname" required><br>
+<label for="email">Email</label><br>
+<input type="text" placeholder="email" name="email" required><br>
+<label for="mobile">Mobile</label><br>
+<input type="text" placeholder="mobile" name="mobile" required><br>
+
+
+
+
+<label for="gender">Gender</label><br>
+<select id="gender" name="gender">
+  <option value="" disabled selected hidden>Select Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+</select><br>
+
+
+
+<label for="dob">Date of Birth:</label><br>
+<input type="date" id="dob" name="dob"><br><br>
+
+
+
+<label for="dob">AdharNumber</label><br>
+<input type="text" placeholder="adharnumber" name="adharnumber" required><br>
+
+
+<label for="dob">PAN Number</label><br>
+<input type="text" placeholder="pannumber" name="pannumber" required><br>
+<p>Passport   size photo</p>
+<input type="file" name="photo" accept="image/*">
+
+<!-- Button to submit the form -->
+<input type="submit" value="Upload">
+
+<!--<a href="result.html"></p><button type="button">Submit</button></a> -->
+
+<button id="account" type="button" onclick="handleButtonClick()">Submit</button>
+
+<script>
+  function handleButtonClick(){
+  var result=document.getElementById("account");
+ result.innerText="Account created successfully";
+  }
+  </script>  
+   
+
+   </form>
+</div>
+</body>
+</html>

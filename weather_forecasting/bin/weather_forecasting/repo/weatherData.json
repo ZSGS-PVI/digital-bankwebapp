@@ -1,0 +1,92 @@
+[
+  {
+    "district": "Chennai",
+    "weather": {
+      "temperature": "28°C",
+      "conditions": "Partly Cloudy",
+      "dateTime": "2024-01-09 10:00:00"
+    }
+  },
+  {
+    "district": "Coimbatore",
+    "weather": {
+      "temperature": "26°C",
+      "conditions": "Mostly Sunny",
+      "dateTime": "2024-01-09 10:05:00"
+    }
+  },
+  {
+    "district": "Madurai",
+    "weather": {
+      "temperature": "29°C",
+      "conditions": "Sunny",
+      "dateTime": "2024-01-09 10:10:00"
+    }
+  },
+  {
+    "district": "Tiruchirappalli",
+    "weather": {
+      "temperature": "27°C",
+      "conditions": "Clear",
+      "dateTime": "2024-01-09 10:15:00"
+    }
+  },
+  {
+    "district": "Salem",
+    "weather": {
+      "temperature": "25°C",
+      "conditions": "Partly Cloudy",
+      "dateTime": "2024-01-09 10:20:00"
+    }
+  },
+  {
+    "district": "Tirunelveli",
+    "weather": {
+      "temperature": "30°C",
+      "conditions": "Mostly Sunny",
+      "dateTime": "2024-01-09 10:25:00"
+    }
+  },
+  {
+    "district": "Vellore",
+    "weather": {
+      "temperature": "27°C",
+      "conditions": "Sunny",
+      "dateTime": "2024-01-09 10:30:00"
+    }
+  },
+  {
+    "district": "Erode",
+    "weather": {
+      "temperature": "26°C",
+      "conditions": "Partly Cloudy",
+      "dateTime": "2024-01-09 10:35:00"
+    }
+  },
+  {
+    "district": "Tiruppur",
+    "weather": {
+      "temperature": "28°C",
+      "conditions": "Mostly Sunny",
+      "dateTime": "2024-01-09 10:40:00"
+    }
+  },
+  {
+    "district": "Thanjavur",
+    "weather": {
+      "temperature": "27°C",
+      "conditions": "Clear",
+      "dateTime": "2024-01-09 10:45:00"
+    }
+  },
+  {
+    "district": "Dindigul",
+    "weather": {
+      "temperature": "25°C",
+      "conditions": "Partly Cloudy",
+      "dateTime": "2024-01-09 10:50:00"
+    }
+  }
+  
+
+]

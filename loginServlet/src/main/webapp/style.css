@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif; /* Applying the Google Font 'Lato' */
+}
+
+h1 span{
+	color: orange;
+}
+
+ h2 img{
+            width: 120px; /* Set the desired width for the car icon */
+           
+            margin-top:0px;/* Adjust the spacing between text and icon */
+        }
+
+       h1{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color:white;
+            text-align: center;
+           font-family: 'Rubik Doodle Shadow', system-ui;
+            z-index: 1; /* Ensure text is above the image */
+        }
+
+span {
+    color: #ffcc00;
+    font-weight: bolder;
+}
+
+h2 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px; /* Adjust font size as needed */
+    color: rgb(0, 0, 0); /* Light yellow color for "max" */
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+#login-btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(255, 204, 0); /* Set your desired button background color */
+    color: rgb(0, 0, 0); /* Set your desired button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: 1500px; /* Adjust spacing between button and icon */
+}
+
+.btn:hover {
+    background-color: yellow; /* Set your desired button background color on hover */
+}
+
+.far.fa-user {
+    font-size: 20px; /* Set your desired font size for the user icon */
+    margin-left: 5px; /* Adjust spacing between button and icon */
+    color: #3498db; /* Set your desired color for the user icon */
+}
+
+/* Navbar styling */
+.navbar {
+    padding: 15px;
+    text-align: center;
+       background-color: black;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255); /* Set your desired text color */
+    margin: 0 15px; /* Adjust spacing between links */
+    font-size: 16px; /* Set your desired font size */
+    text-decoration: none;
+ 
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* Set your desired text color on hover */
+}
+
+.logo {
+    color: #fff; /* Set your desired color for the logo */
+    font-size: 24px; /* Set your desired font size for the logo */
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between logo and links */
+}
+
+.logo span {
+    font-weight: bold;
+}
+.login-form-container{
+	position: fixed;
+	top: 0; left: 0;
+	z-index: 1000;
+	height: 100%;
+	width: 100%;
+	background:rgba(255,255,255,.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+      
+
